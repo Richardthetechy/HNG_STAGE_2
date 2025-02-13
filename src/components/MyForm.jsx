@@ -53,7 +53,6 @@ const Form = ({
       }, [username, email, TextArea, setData]);
     const onSubmit = (data) => {
         if (!imageUrl) {
-            // Triggers an error when no image is uploaded
             alert("Please upload an image before submitting.");
             return;
           }

@@ -11,10 +11,8 @@ const ResultPage = ({step, setStep}) => {
     JSON.parse(localStorage.getItem('selectedTicket') || '{}')
   );
 
-  // Optionally, if changes are made in your app and you update localStorage,
-  // update these state variables as well.
+
   useEffect(() => {
-    // Example: if your app updates localStorage elsewhere, you could refresh these states.
     const data = JSON.parse(localStorage.getItem('data') || '{}');
     setStoredData(data);
     setStoredImageUrl(localStorage.getItem('imageUrl') || '');
