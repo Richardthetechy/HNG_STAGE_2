@@ -24,7 +24,10 @@ return (
                     </div>
                     <LinearProgressBar step={step} />
             </header>
-            <div className='flex flex-col justify-center items-center gap-2 mt-6 p-6 bg-content-bg border border-[#07373F]  rounded-[16px]'>
+            <div className='flex flex-col justify-center items-center gap-2 mt-6 p-6 bg-content-bg border border-[#07373F]  rounded-[16px]'
+            style={{
+                background:"radial-gradient(103.64% 57.39% at 14.02% 32.06%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%) , rgba(10, 12, 17, 0.1)"
+            }}>
                     
                     <h3 className="font-Road-Rage 
                     text-[48px] 
