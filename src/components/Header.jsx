@@ -6,7 +6,7 @@ import { useState } from "react";
 const Header = () => {
     const [activeLink, setActiveLink] = useState(navLink[0])
   return (
-    <nav className="max-w-[1200px] mx-auto mt-7 bg-custom-bg border-nav-border-color border font-[JejuMyeongjo] rounded-2xl">
+    <nav className="max-w-[1200px] mx-auto py-4 mt-7 bg-custom-bg border-nav-border-color border font-[JejuMyeongjo] rounded-2xl">
         <div className="h-[68px] md:h-[76] container max-w-[1200px] mx-auto flex justify-between items-center px-4 py-4">
             <div className="">
                 <img src={Logo} alt="logo" />

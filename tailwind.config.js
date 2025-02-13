@@ -13,7 +13,8 @@ export default {
         "border-color": "#0E464F",
       },
       textColor : {
-        "normal":'#0A0C11'
+        "normal":'#0A0C11',
+        "gray-98": "#FAFAFA"
       },
       fontFamily : {
         "JejuMyeongjo": ['JejuMyeongjo'],
